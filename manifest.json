@@ -1,0 +1,14 @@
+{
+    "name": "Shipping Rate",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "js": ["shippingR.js"],
+        "css": ["shippingR.css"],
+        "matches": ["<all_urls>"]
+    }],
+    "permissions": ["storage","activeTab","clipboardWrite","clipboardRead","storage"],
+    "action": {
+        "default_popup": "george.html"
+    }
+}

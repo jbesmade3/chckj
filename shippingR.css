@@ -1,0 +1,34 @@
+#elemenT{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 20px grey;
+    margin: 0;
+    padding: 0;
+}
+#elemenT :nth-child(1){
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#dimDiv input{
+    width: 70px;
+    text-align: center;
+}
+#wQTY input{
+    width: 70px;
+    text-align: center;
+}
+
+#result{
+    color: rgb(78, 155, 78);
+}
+
+#costInput{
+    width: 70px;
+    text-align: center;
+}
+
+
+
